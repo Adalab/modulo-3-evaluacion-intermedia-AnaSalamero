@@ -5,7 +5,7 @@ import PokeList from './PokeList';
 import '../stylesheets/App.scss';
 
 function App() {
-  const [pokemonList, setPokemonList] = useState(data);
+  const [pokemonList] = useState(data);
 
   return <PokeList pokemonList={pokemonList} />;
 }
