@@ -7,7 +7,12 @@ import '../stylesheets/App.scss';
 function App() {
   const [pokemonList] = useState(data);
 
-  return <PokeList pokemonList={pokemonList} />;
+  return (
+    <>
+      <h1>Pokemon list</h1>
+      <PokeList pokemonList={pokemonList} />
+    </>
+  );
 }
 
 export default App;
